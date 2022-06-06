@@ -6,8 +6,10 @@ p
         }
 body
         {
-            background-color:white;
             color:white;
+            width: 100%;
+            margin: 0px;
+            
         }
 #mid
          {
@@ -57,7 +59,7 @@ li a
 text-align: center;
 color: blanchedalmon;
 
-}
+       }
 img{
     border-radius: 60%;
     width: 70%;
@@ -69,10 +71,10 @@ img{
     position:relative;
     height: 350px;
 
-}
+ }
 .wraparound{
     float: left;
-}
+ }
 #div1{
     box-shadow: 0.5rem 0.5rem black,-0.5rem 0.5rem #ccc;
     width: 300px;
@@ -85,7 +87,7 @@ img{
     text-align: center;
     border-radius: 10px;
     
-}  
+  }  
 #div2{
   box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
     width: 300px;
@@ -99,7 +101,50 @@ img{
     margin-right: 150%;
     text-align: center;
     border-radius: 10px;
-}             
+    } 
+.cv{
+  height: 350px;
+  float: right; 
+  color: azure; 
+  width: 900px;
+  font-size: 20px;
+}            
+.cv1{
+  float:right;
+   color: azure;
+   width: 900px;
+   height: 600px;
+   font-size: 20px;
+   padding-bottom: 30px;
+   margin-bottom: 400px;
+   
+}
+.cv2{
+  float:right;
+   color: azure;
+   width: 900px;
+   height: 400px;
+   font-size: 20px;
+}
+.cv3{
+  float:right;
+   color: azure;
+   width: 900px;
+   height: 350px;
+   margin-top:0px;
+   font-size: 20px;
+}
+.cv4{
+  float:right;
+   color: azure;
+   width: 900px;
+   height:1100px;
+   font-size: 20px;
+   margin-top: 1300px;
+   margin-bottom:50px;
+   padding-bottom: 970px;
+   position: absolute;
+}
     input{
         margin: 5px;
         padding: 5px;
@@ -114,20 +159,27 @@ img{
         color: white;
         padding: 5px 10px;
     }
-    footer{
-        padding-top: 2.5rem;
-        padding-bottom: 2.5rem;
+footer{
+      margin-top:100%;
+      padding-top:0px;
+      padding-bottom: 220px;
         background-color: #252936;
         text-align: center;
         display: block;
         color: #f1f1f1;
-        height: 250px;;
-    }
+        height: 10px;
+        display: block;
+        right: 0;
+        bottom: 0%;
+        left: 0;
+        position:fixed;
+      }
     .flex-container {
         display: flex;
         justify-content: center;
         background-image: url(../images/back2.jpg);
         height: 600px;
+        flex-direction: row;
       }
       
       .flex-container > div {
@@ -141,7 +193,6 @@ img{
         margin-top: 200px;
         color: #f1f1f1;
         padding: 18px;
-        
       }
       .fa{
           padding: 5px;
@@ -173,4 +224,116 @@ img{
           gap: 3rem;
           grid-template-columns: repeat(3, 1fr);
         }
+.navbar{
+  padding-left: 15px;
+  margin-left: 0px;
+  padding-right: 650px;
+       }
+
+       @media only screen and (max-width:768px) {
+        /* for mobile phones:*/
+        [class*="col-"]{
+          width: 100%;
+        }
+        body{
+         min-width: 768px;
+       }
+        #div2{
+          min-width: 300px;
+          margin-left: 20px;
+        }
+        footer{
+          margin-top:100%;
+      padding-top:20px;
+      padding-bottom: 220px;
+        background-color: #252936;
+        text-align: center;
+        display: block;
+        color: #f1f1f1;
+        height: 150px;
+        display: block;
+        right: 0;
+        bottom: 0%;
+        left: 0;
+        position:fixed;
+       }
+         
+       #div1{
+           max-width: 300px;
+           margin-left: 30px;
+         }
+       section{
+         min-width: 300px;
+         background-color: ye;
+       }
        
+       }
+@media (min-width:1281px){
+       footer{
+        margin-top:100%;
+        padding-top:0px;
+        padding-bottom: 220px;
+          background-color: #252936;
+          text-align: center;
+          display: block;
+          color: #f1f1f1;
+          height: 150px;
+          display: block;
+          right: 0;
+          bottom: 0%;
+          left: 0;
+          position:fixed;
+       }
+       }
+@media (min-width:1025px) and (max-width:1280px){
+         footer{
+          margin-top:100%;
+          padding-top:0px;
+          padding-bottom: 220px;
+            background-color: #252936;
+            text-align: center;
+            display: block;
+            color: #f1f1f1;
+            height: 150px;
+            display: block;
+            right: 0;
+            bottom: 0%;
+            left: 0;
+            position:fixed;
+         }
+       }
+@media (min-width:768px) and (max-width:1024px){
+         footer{
+          margin-top:100%;
+          padding-top:0px;
+          padding-bottom: 220px;
+            background-color: #252936;
+            text-align: center;
+            display: block;
+            color: #f1f1f1;
+            height: 150px;
+            display: block;
+            right: 0;
+            bottom: 0%;
+            left: 0;
+            position:fixed;
+         }
+       }
+@media only screen and(max-width:768px){
+         /*for tablets:*/
+         footer{
+          margin-top:100%;
+          padding-top:0px;
+          padding-bottom: 220px;
+            background-color: #252936;
+            text-align: center;
+            display: block;
+            color: #f1f1f1;
+            height: 150px;
+            display: block;
+            right: 0;
+            bottom: 0%;
+            left: 0;
+            position:fixed;
+         }
+        }
