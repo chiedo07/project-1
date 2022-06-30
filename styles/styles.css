@@ -337,3 +337,7 @@ footer{
             position:fixed;
          }
         }
+        /* hover animation for pbox */
+.area:hover {
+  transition: .5s;
+  transform: translateY(-9%);}
